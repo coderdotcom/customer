@@ -21,7 +21,7 @@ public class CustomerDAO {
         transactionList.add( new CustomerTransaction("Jacob Ranon", "007",LocalDate.of(2023,9,3), 47));
         transactionList.add( new CustomerTransaction("Matthew Mitchell", "008",LocalDate.of(2023,8,9), 176));
         transactionList.add( new CustomerTransaction("Sam Brown", "009",LocalDate.of(2023,4,15), 225));
-        transactionList.add( new CustomerTransaction("Gary Billiard", "010",LocalDate.of(2023,7,29), 865));
+        transactionList.add( new CustomerTransaction("Gary Billiard Williams", "010",LocalDate.of(2023,7,29), 865));
     }
 
     public List<CustomerTransaction> getTransactionList() {
