@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 public class CustomerService {
     CustomerDAO customerDAO;
-    String name;
+    String names;
 
     @Autowired
     public CustomerService(CustomerDAO customerDAO) {
