@@ -12,7 +12,7 @@ public class CustomerDAO {
     private static List<CustomerTransaction> transactionList = new ArrayList<>();
 
     static {
-        transactionList.add( new CustomerTransaction("John Doe", "001", LocalDate.of(2023,6, 30), 120));
+        transactionList.add( new CustomerTransaction("John Doe Bin", "001", LocalDate.of(2023,6, 30), 120));
         transactionList.add( new CustomerTransaction("Mike Adam", "002",LocalDate.of(2023,7,21), 75));
         transactionList.add( new CustomerTransaction("Philip David", "003",LocalDate.of(2023,7,10), 325));
         transactionList.add( new CustomerTransaction("Connor Calson", "004",LocalDate.of(2023,5,9), 213));
