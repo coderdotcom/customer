@@ -13,8 +13,6 @@ public class CustomerReward {
         this.reward = reward;
     }
 
-    public CustomerReward() {}
-
     public String getName() {
         return name;
     }
